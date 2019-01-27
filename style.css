@@ -1,0 +1,65 @@
+.carousel-item {
+  height: 70vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar-brand{
+  font-size: 35px;
+}
+
+.black{
+  height: 23rem;
+  background-image: url('/assets/greytexture.jpg');
+  background-attachment: fixed;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-position: center;
+
+}
+.old{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.card{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.card-header{
+  display: flex;
+  justify-content: center;
+}
+.orange{
+  background-color: orange;
+}
+.lead{
+  color: black;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.icon{
+  color:black;
+  font-size: 4rem;
+}
+.fas{
+  font-size: 25px;
+}
+
+
+.intro{
+  font-family: 'Dosis', sans-serif;
+  color: whitesmoke;
+  text-shadow: 1px 1px;
+}
+/* .h2{
+  color: white;
+  text-shadow: 4px;
+  
+} */
+

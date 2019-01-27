@@ -6,13 +6,146 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jonah E</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="container-fluid mt-5 pt-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#"><i class="fas fa-fire"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+    </section>
+    <div class="row black pt-3">
+      <div class="col-6 intro d-flex align-items-center justify-content-center">
+        <h2>Hi, I'm Jonah. I'm a Full Stack Developer.</h2>
+      </div>
+      <div class="col-6 d-flex justify-content-center">
+        <img src="/assets/jonahpicture1-removebg.png" align="right" alt="jonah picture" height="352px" width="350px">
+      </div>
+    </div>
+    <div class="row orange">
+      <div class="col mt-3 icon d-flex justify-content-around align-items-center">
+        <i class="devicon-html5-plain"></i>
+        <i class="devicon-css3-plain"></i>
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-nodejs-plain"></i>
+        <i class="devicon-csharp-plain"></i>
+        <i class="devicon-vuejs-plain"></i>
+        <i class="devicon-mongodb-plain"></i>
+        <i class="devicon-git-plain"></i>
+        <i class="devicon-github-plain"></i>
+        <i class="devicon-mysql-plain"></i>
+      </div>
+    </div>
+    <div class="row orange">
+      <div class="col old">
+        <h3 class="lead">About Me</h3>
+      </div>
+    </div>
+    <div class="row orange">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-body">
+            <p>After being self-taught for several months, a passion for software development led to a
+              coding
+              boot-camp experience.
+              Fascinated by technology and looking to continue to grow technical abilities. Versed in coding
+              conventions
+              but
+              also
+              able to think outside the box in regards to problem solving. Works well alone, but can also assume a
+              role
+              on
+              a
+              team
+              either as a leader or a team member. Skilled in Front and Back End development. Completed many projects
+              using Vue.js
+              as well as Node.js and C#.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <section class="py-5">
+    <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('https://images.unsplash.com/photo-1500326252658-34e36edef030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4"></h3>
+              <p class="lead"></p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('./assets/sawtooths2.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4">Second Slide</h3>
+              <p class="lead">This is a description for the second slide.</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('./assets/sawtooths3.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="display-4"></h3>
+              <p class="lead"></p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Page Content -->
+
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
 
 </body>
 
