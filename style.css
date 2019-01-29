@@ -9,11 +9,11 @@
 }
 
 .navbar-brand{
-  font-size: 35px;
+  font-size: 20px;
 }
 
 .black{
-  height: 23rem;
+  height: 26rem;
   background-image: url('/assets/greytexture.jpg');
   background-attachment: fixed;
   /* background-size: cover; */
@@ -35,7 +35,7 @@
   justify-content: center;
 }
 .orange{
-  background-color: orange;
+  background-color: rgb(255, 136, 0);
 }
 .lead{
   color: black;
@@ -50,6 +50,7 @@
 .fas{
   font-size: 25px;
 }
+
 
 
 .intro{

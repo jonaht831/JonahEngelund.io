@@ -16,84 +16,116 @@
 </head>
 
 <body>
-  <div class="container-fluid mt-5 pt-4">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#"><i class="fas fa-fire"></i></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <section>
-    </section>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Jonah Engelund</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link js-scroll-trigger" href="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+  </section>
+  <div class="container-fluid">
     <div class="row black pt-3">
       <div class="col-6 intro d-flex align-items-center justify-content-center">
         <h2>Hi, I'm Jonah. I'm a Full Stack Developer.</h2>
       </div>
-      <div class="col-6 d-flex justify-content-center">
-        <img src="/assets/jonahpicture1-removebg.png" align="right" alt="jonah picture" height="352px" width="350px">
+      <div class="col-6 d-flex justify-content-center align-self-end ">
+        <img src="/assets/jonahpicture1-removebg.png" alt="jonah picture" height="352px" width="350px">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row orange" id="about">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="mt-3 text-white">About Me</h2>
+        <hr class="my-4">
+        <p class="text-white font-weight-bold">After being self-taught for several months, I discovered a passion for
+          software
+          development. Forever fascinated by technology and looking to continue to grow my technical abilities, I was
+          led to
+          a
+          coding
+          boot-camp experience,
+          <a href="https://boisecodeworks.com/" class="text-white">Boise Codeworks.</a>
+          There, I completed over 500 hours of hands on web development training building full-stack applications from
+          start to finish.
+          Projects ranging from a project organizer, to a photo-scharing app, and even social media</p>
+        <hr>
+        <p class="text-white font-weight-bold">Now i'm looking to step it up. To begin a career with an
+          innovative company using modern techniques to create useful applications.</p>
+        <hr>
       </div>
     </div>
     <div class="row orange">
-      <div class="col mt-3 icon d-flex justify-content-around align-items-center">
-        <i class="devicon-html5-plain"></i>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-nodejs-plain"></i>
-        <i class="devicon-csharp-plain"></i>
-        <i class="devicon-vuejs-plain"></i>
-        <i class="devicon-mongodb-plain"></i>
-        <i class="devicon-git-plain"></i>
-        <i class="devicon-github-plain"></i>
-        <i class="devicon-mysql-plain"></i>
+      <div class="col text-center mb-2">
+        <button class="btn btn-dark">
+          <a class="js-scroll-trigger font-weight-bold text-white" href="#contact">Contact Me</a>
+        </button>
       </div>
     </div>
-    <div class="row orange">
-      <div class="col old">
-        <h3 class="lead">About Me</h3>
+  </div>
+  <div class="container-fluid">
+    <div class="row mt-2 d-flex justify-content-center">
+      <h2>Languages</h2>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <div class="col text-center">
+        <img src="/assets/htmlicon.png" width="150px" height="150px">
+      </div>
+      <div class="col mt-3 text-center">
+        <img src="/assets/cssicon.png" width="125px" height="125px">
+      </div>
+      <div class="col mt-3 text-center">
+        <img src="/assets/jsicon.png" width="115px" height="120px">
+      </div>
+      <div class="col text-center">
+        <img src="/assets/vueicon1.png" width="175px" height="175px">
+      </div>
+      <div class="col">
+        <img src="/assets/nodeicon.png" width="175px" height="175px">
       </div>
     </div>
-    <div class="row orange">
-      <div class="col-12">
-        <div class="card">
-          <div class="card-body">
-            <p>After being self-taught for several months, a passion for software development led to a
-              coding
-              boot-camp experience.
-              Fascinated by technology and looking to continue to grow technical abilities. Versed in coding
-              conventions
-              but
-              also
-              able to think outside the box in regards to problem solving. Works well alone, but can also assume a
-              role
-              on
-              a
-              team
-              either as a leader or a team member. Skilled in Front and Back End development. Completed many projects
-              using Vue.js
-              as well as Node.js and C#.</p>
-          </div>
-        </div>
+    <div class="row">
+      <div class="col text-center">
+        <img src="/assets/images.png" width="150px" height="150px">
+      </div>
+      <div class="col text-center">
+        <img src="/assets/mysqlicon.png" width="175px" height="175px">
+      </div>
+      <div class="col text-center">
+        <img src="/assets/mongo.png" width="175px" height="175px">
+      </div>
+      <div class="col text-center">
+        <img src="/assets/git.png" width="150px" height="150px">
+      </div>
+      <div class="col text-center">
+        <img src="/assets/github.png" width="125px" height="125px">
+      </div>
+    </div>
+    <div class="row orange" id="projects">
+      <div class="col text-center text-white">
+        <hr>
+        <h2>Projects</h2>
+        <hr>
       </div>
     </div>
   </div>
 
-  <section class="py-5">
+  <section>
     <header>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -134,12 +166,44 @@
         </a>
       </div>
     </header>
-
-    <!-- Page Content -->
-
   </section>
+  <!-- Page Content -->
+  <div class="container-fluid">
+    <div class="row orange" id="contact">
+      <div class="col text-center text-white">
+        <hr>
+        <h2>Contact Me</h2>
+        <hr>
+      </div>
+    </div>
+    <div class="row" height="23rem">
 
-
+      <div class="col">
+        <div class="card">
+          <div class="card-text text-center">
+            <h4>Email</h4>
+            <p>jonahengelund@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-text text-center">
+            <h4>Github</h4>
+            <a href="https://github.com/jonaht831">https://github.com/jonaht831</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-text text-center">
+            <h4>LinkedIn</h4>
+            <a href="https://www.linkedin.com/in/jonahengelund/">www.linkedin.com/in/jonahengelund</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
